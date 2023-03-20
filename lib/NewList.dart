@@ -1,4 +1,4 @@
-const NEW_LIST = [
+const NewList = [
   {
     "id" : "1",
     "itemName" : "Egg",

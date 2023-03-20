@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:foodspan/productDetail.dart';
-import 'newList.dart';
+import 'NewList.dart';
 import "package:google_fonts/google_fonts.dart";
 
 class ProductList extends StatefulWidget {
@@ -26,7 +26,7 @@ class ProdList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const newList = NEW_LIST;
+    const newList = NewList;
 
     return Scaffold(
       backgroundColor: Colors.white,

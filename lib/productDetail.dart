@@ -1,11 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'newList.dart';
+import 'NewList.dart';
 import "package:google_fonts/google_fonts.dart";
 
 class ProductDetail extends StatelessWidget {
 
-  static const newList = NEW_LIST;
+  static const newList = NewList;
   final int index;
 
   const ProductDetail({Key? key, required this.index}) : super(key: key);
