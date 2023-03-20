@@ -5,6 +5,7 @@ const NewList = [
     "count" : "7",
     "categoryId" : "4",
     "refrigeratorId" : "1",
+    "fridgeName" : "My Fridge 1",
     "dday": "1",
     "expiredAt" : "2021.01.01",
     "createdAt" : "2020.12.01",

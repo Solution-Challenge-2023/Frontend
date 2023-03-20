@@ -12,17 +12,21 @@ class ProductList extends StatefulWidget {
 }
 
 class _ProductListState extends State<ProductList> {
+  int index = 0;
+
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ProdList(),
+      home: ProdList(index: index),
     );
   }
 }
 
 class ProdList extends StatelessWidget {
-  const ProdList({Key? key}) : super(key: key);
+  final int index;
+
+  const ProdList({Key? key, required this.index}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -32,7 +36,7 @@ class ProdList extends StatelessWidget {
       backgroundColor: Colors.white,
       appBar: AppBar(
         title: Text(
-          "My Fridge 1",
+          "${newList[index]['fridgeName']}",
           style: GoogleFonts.urbanist(
             fontSize: 25,
             fontWeight: FontWeight.w600,
@@ -84,7 +88,6 @@ class ProdList extends StatelessWidget {
             ),
             BottomNavigationBarItem(
                 icon: Icon(Icons.kitchen_outlined), label: 'Fridge'),
-
             BottomNavigationBarItem(
                 icon: Icon(Icons.calendar_month_outlined), label: 'Calendar'),
           ]),
