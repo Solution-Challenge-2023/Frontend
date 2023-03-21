@@ -1,8 +1,8 @@
-const NewList = [
+var NewList = [
   {
     "id" : "1",
     "itemName" : "Egg",
-    "count" : "7",
+    "count" : "1",
     "categoryId" : "4",
     "refrigeratorId" : "1",
     "fridgeName" : "My Fridge 1",
@@ -11,5 +11,18 @@ const NewList = [
     "createdAt" : "2020.12.01",
     "updatedAt" : "2020.12.31",
     "image" : "dairy.png",
+  },
+  {
+    "id" : "2",
+    "itemName" : "Fish",
+    "count" : "5",
+    "categoryId" : "13",
+    "refrigeratorId" : "1",
+    "fridgeName" : "My Fridge 1",
+    "dday": "3",
+    "expiredAt" : "2021.01.01",
+    "createdAt" : "2020.12.01",
+    "updatedAt" : "2020.12.31",
+    "image" : "seafood.png",
   },
 ];

@@ -1,4 +1,4 @@
-import 'productList.dart';
+import 'ProductList.dart';
 import 'package:flutter/material.dart';
 
 void main() {
