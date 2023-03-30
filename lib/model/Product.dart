@@ -11,6 +11,7 @@ class Product {
   String updatedAt;
   String image;
 
+
   Product({
     required this.id,
     required this.itemName,
@@ -24,17 +25,17 @@ class Product {
     required this.updatedAt,
     required this.image,
   });
-
-  Product.fromMap(Map<String, dynamic> map)
-      : id = map['id'],
-        itemName = map['itemName'],
-        count = map['id'],
-        categoryId = map['categoryId'],
-        refrigeratorId = map['refrigeratorId'],
-        fridgeName = map['fridgeName'],
-        dday = map['dday'],
-        expriedAt = map['expriedAt'],
-        createdAt = map['createdAt'],
-        updatedAt = map['updatedAt'],
-        image = map['image'];
 }
+//   Product.fromMap(Map<String, dynamic> map)
+//       : id = map['id'],
+//         itemName = map['itemName'],
+//         count = map['id'],
+//         categoryId = map['categoryId'],
+//         refrigeratorId = map['refrigeratorId'],
+//         fridgeName = map['fridgeName'],
+//         dday = map['dday'],
+//         expriedAt = map['expriedAt'],
+//         createdAt = map['createdAt'],
+//         updatedAt = map['updatedAt'],
+//         image = map['image'];
+// }

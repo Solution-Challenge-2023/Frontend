@@ -86,6 +86,12 @@
       "languageVersion": "2.17"
     },
     {
+      "name": "get_it",
+      "rootUri": "file:///Users/chandrala/.pub-cache/hosted/pub.dev/get_it-7.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "google_fonts",
       "rootUri": "file:///Users/chandrala/.pub-cache/hosted/pub.dev/google_fonts-2.3.3",
       "packageUri": "lib/",
@@ -290,7 +296,7 @@
       "languageVersion": "2.19"
     }
   ],
-  "generated": "2023-03-20T12:43:59.300875Z",
+  "generated": "2023-03-28T11:21:39.431188Z",
   "generator": "pub",
   "generatorVersion": "2.19.2"
 }

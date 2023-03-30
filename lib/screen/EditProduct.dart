@@ -1,26 +1,23 @@
 import 'package:flutter/material.dart';
-import '../ProductMap.dart';
 import "package:google_fonts/google_fonts.dart";
 
 class EditProduct extends StatefulWidget {
-  static var newList = NewList;
-  final int index;
 
-  const EditProduct({Key? key, required this.index}) : super(key: key);
+
+  const EditProduct({Key? key}) : super(key: key);
 
   @override
   _EditProductState createState() => _EditProductState();
 }
 
 class _EditProductState extends State<EditProduct> {
-  final newList = EditProduct.newList;
   late TextEditingController _countController;
 
   @override
   void initState() {
     super.initState();
     _countController =
-        TextEditingController(text: NewList[widget.index]['count']);
+        TextEditingController(text: null);
   }
 
   @override
@@ -29,30 +26,30 @@ class _EditProductState extends State<EditProduct> {
     super.dispose();
   }
 
-  void updateList() {
-    setState(() {
-      NewList[widget.index]['count'] = _countController.text;
-    });
-    Navigator.pop(
-        context, _countController.text); // Pass the updated count as a result
-  }
-
-  void editProduct() async {
-    final newCount = await Navigator.push(
-      context,
-      MaterialPageRoute(
-        builder: (context) => EditProduct(index: widget.index),
-      ),
-    );
-
-    if (newCount != null) {
-      setState(() {
-        NewList[widget.index]['count'] = newCount;
-      });
-      Navigator.pop(
-          context, newCount); // Return to previous page with updated count
-    }
-  }
+  // void updateList() {
+  //   setState(() {
+  //     NewList[widget.index]['count'] = _countController.text;
+  //   });
+  //   Navigator.pop(
+  //       context, _countController.text); // Pass the updated count as a result
+  // }
+  //
+  // void editProduct() async {
+  //   final newCount = await Navigator.push(
+  //     context,
+  //     MaterialPageRoute(
+  //       builder: (context) => EditProduct(index: widget.index),
+  //     ),
+  //   );
+  //
+  //   if (newCount != null) {
+  //     setState(() {
+  //       NewList[widget.index]['count'] = newCount;
+  //     });
+  //     Navigator.pop(
+  //         context, newCount); // Return to previous page with updated count
+  //   }
+  // }
 
   @override
   Widget build(BuildContext context) {
@@ -135,7 +132,7 @@ class _EditProductState extends State<EditProduct> {
                 backgroundColor: Colors.blue,
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(30))),
-            onPressed: updateList,
+            onPressed: null,
             child: Text(
               'Save Changes',
               style: GoogleFonts.urbanist(
@@ -146,28 +143,6 @@ class _EditProductState extends State<EditProduct> {
             ),
           ),
           SizedBox(height: 50),
-        ],
-      ),
-      bottomNavigationBar: BottomNavigationBar(
-        type: BottomNavigationBarType.fixed,
-        backgroundColor: Colors.white,
-        items: <BottomNavigationBarItem>[
-          BottomNavigationBarItem(
-            icon: Icon(Icons.insert_chart_outlined),
-            label: 'Analytics',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.insert_chart_outlined),
-            label: 'Analytics',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.insert_chart_outlined),
-            label: 'Analytics',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.kitchen_outlined),
-            label: 'Fridge',
-          ),
         ],
       ),
     );

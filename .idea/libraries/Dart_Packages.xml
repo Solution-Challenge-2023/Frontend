@@ -100,6 +100,13 @@
             </list>
           </value>
         </entry>
+        <entry key="get_it">
+          <value>
+            <list>
+              <option value="$PROJECT_DIR$/../.pub-cache/hosted/pub.dev/get_it-7.2.0/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="google_fonts">
           <value>
             <list>
@@ -346,6 +353,7 @@
       <root url="file://$PROJECT_DIR$/../.pub-cache/hosted/pub.dev/file-6.1.4/lib" />
       <root url="file://$PROJECT_DIR$/../.pub-cache/hosted/pub.dev/flutter_lints-2.0.1/lib" />
       <root url="file://$PROJECT_DIR$/../.pub-cache/hosted/pub.dev/flutter_svg-1.1.6/lib" />
+      <root url="file://$PROJECT_DIR$/../.pub-cache/hosted/pub.dev/get_it-7.2.0/lib" />
       <root url="file://$PROJECT_DIR$/../.pub-cache/hosted/pub.dev/google_fonts-2.3.3/lib" />
       <root url="file://$PROJECT_DIR$/../.pub-cache/hosted/pub.dev/http-0.13.5/lib" />
       <root url="file://$PROJECT_DIR$/../.pub-cache/hosted/pub.dev/http_parser-4.0.2/lib" />
