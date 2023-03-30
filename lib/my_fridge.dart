@@ -89,14 +89,23 @@ style: TextStyle(
             ),
           ),
           ListTile(
-            title: Text('Item 1'),
+            leading: Icon(Icons.notifications_none_outlined),
+            title:
+            Text('Notifications'),
             onTap: () {// 메뉴 아이템을 클릭하면 수행할 작업을 정의합니다.
               },
           ),
           ListTile(
-            title: Text('Item 2'),
+            leading: Icon(Icons.lock_outline_rounded),
+            title: Text('Privacy'),
             onTap: () {   // 메뉴 아이템을 클릭하면 수행할 작업을 정의합니다.
                },
+          ),
+          ListTile(
+            leading: Icon(Icons.search_outlined),
+            title: Text('Help'),
+            onTap: () {// 메뉴 아이템을 클릭하면 수행할 작업을 정의합니다.
+            },
           ),
         ],
       ),
