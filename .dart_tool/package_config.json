@@ -3,9 +3,9 @@
   "packages": [
     {
       "name": "_flutterfire_internals",
-      "rootUri": "file:///Users/chandrala/.pub-cache/hosted/pub.dev/_flutterfire_internals-1.0.18",
+      "rootUri": "file:///Users/chandrala/.pub-cache/hosted/pub.dev/_flutterfire_internals-1.1.0",
       "packageUri": "lib/",
-      "languageVersion": "2.16"
+      "languageVersion": "2.18"
     },
     {
       "name": "async",
@@ -105,39 +105,39 @@
     },
     {
       "name": "firebase_auth",
-      "rootUri": "file:///Users/chandrala/.pub-cache/hosted/pub.dev/firebase_auth-4.3.0",
+      "rootUri": "file:///Users/chandrala/.pub-cache/hosted/pub.dev/firebase_auth-4.4.0",
       "packageUri": "lib/",
-      "languageVersion": "2.16"
+      "languageVersion": "2.18"
     },
     {
       "name": "firebase_auth_platform_interface",
-      "rootUri": "file:///Users/chandrala/.pub-cache/hosted/pub.dev/firebase_auth_platform_interface-6.12.0",
+      "rootUri": "file:///Users/chandrala/.pub-cache/hosted/pub.dev/firebase_auth_platform_interface-6.13.0",
       "packageUri": "lib/",
-      "languageVersion": "2.16"
+      "languageVersion": "2.18"
     },
     {
       "name": "firebase_auth_web",
-      "rootUri": "file:///Users/chandrala/.pub-cache/hosted/pub.dev/firebase_auth_web-5.2.10",
+      "rootUri": "file:///Users/chandrala/.pub-cache/hosted/pub.dev/firebase_auth_web-5.3.0",
       "packageUri": "lib/",
-      "languageVersion": "2.16"
+      "languageVersion": "2.18"
     },
     {
       "name": "firebase_core",
-      "rootUri": "file:///Users/chandrala/.pub-cache/hosted/pub.dev/firebase_core-2.8.0",
+      "rootUri": "file:///Users/chandrala/.pub-cache/hosted/pub.dev/firebase_core-2.9.0",
       "packageUri": "lib/",
-      "languageVersion": "2.16"
+      "languageVersion": "2.18"
     },
     {
       "name": "firebase_core_platform_interface",
-      "rootUri": "file:///Users/chandrala/.pub-cache/hosted/pub.dev/firebase_core_platform_interface-4.5.3",
+      "rootUri": "file:///Users/chandrala/.pub-cache/hosted/pub.dev/firebase_core_platform_interface-4.6.0",
       "packageUri": "lib/",
-      "languageVersion": "2.16"
+      "languageVersion": "2.18"
     },
     {
       "name": "firebase_core_web",
-      "rootUri": "file:///Users/chandrala/.pub-cache/hosted/pub.dev/firebase_core_web-2.2.2",
+      "rootUri": "file:///Users/chandrala/.pub-cache/hosted/pub.dev/firebase_core_web-2.3.0",
       "packageUri": "lib/",
-      "languageVersion": "2.16"
+      "languageVersion": "2.18"
     },
     {
       "name": "flutter",
@@ -192,18 +192,6 @@
       "rootUri": "file:///Users/chandrala/.pub-cache/hosted/pub.dev/google_identity_services_web-0.2.0",
       "packageUri": "lib/",
       "languageVersion": "2.17"
-    },
-    {
-      "name": "google_mlkit_commons",
-      "rootUri": "file:///Users/chandrala/.pub-cache/hosted/pub.dev/google_mlkit_commons-0.2.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.16"
-    },
-    {
-      "name": "google_mlkit_text_recognition",
-      "rootUri": "file:///Users/chandrala/.pub-cache/hosted/pub.dev/google_mlkit_text_recognition-0.5.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.16"
     },
     {
       "name": "google_sign_in",
@@ -470,7 +458,7 @@
       "languageVersion": "2.19"
     }
   ],
-  "generated": "2023-03-30T11:10:46.007540Z",
+  "generated": "2023-03-31T02:39:40.331082Z",
   "generator": "pub",
   "generatorVersion": "2.19.2"
 }
