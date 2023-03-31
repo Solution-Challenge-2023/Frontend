@@ -9,6 +9,7 @@ import 'package:foodspan/login//splash.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:foodspan/product//My_fridge.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:draft/calendar.dart';
 
 void setupLocator() {
   GetIt.I.registerLazySingleton(() => ProductService());
@@ -22,6 +23,7 @@ void main() async {
       debugShowCheckedModeBanner: false,
       routes: {
         "/": (context) => ProductList(),
+        '/calendar': (context) => Calendar(),
         // '/login': (context) => Login(),
         // '/createNewAccount': (context) => CreateNewAccount(),
         // '/my_fridge': (context) => My_fridge(),
